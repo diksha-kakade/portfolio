@@ -1,0 +1,119 @@
+# portfolio
+html
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title> Portfolio Website </title> 
+<link rel="stylesheet" href="style.css"> 
+<style>
+</style>
+</head> 
+<body> 
+<div id="header"> 
+    <div class="container"> 
+        <nav> 
+            <logo>PORTFOLIO</logo>
+            <ul id="sidemenu"> 
+            <li><a href="#header">Home</a></li> 
+            <li><a href="#about">About</a></li>  
+            <li><a href="#project">Project</a></li> 
+            <li><a href="#contact">Contact</a></li> 
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul> 
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav> 
+        <div class="header-text"> 
+            <h1>Hi, I'm <span>Diksha</span><br>kakade From Ahilyanagar</h1>
+             <h2>Web disigner
+             </h2>
+        </div>
+        
+        <a href="C:\Users\hp\OneDrive\Documents\CV.1.pdf" download class="btn btn2">Download CV</a>
+    </div>
+    </div> 
+    <!------------about-------------->
+
+    <div id="about">
+        <div class="container"> 
+            <div class="row"> 
+                <div class="about-col-1"> 
+                    <img src="C:\Users\hp\OneDrive\Pictures\Camera Roll\diksha.html.jpg"> 
+            </div> 
+            <div class="about-col-2"> 
+                <h1 class="sub-title">About Me</h1>
+                <p></p>
+                <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>  
+                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                    </div> 
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul> 
+                        <li><span>html</span><br>80%</li> 
+                        <li><span>c</span><br>90%</li> 
+                        <li><span>c++</span><br>80%</li>  
+                        <li><span>java</span><br>70%</li>
+                        <li><span>PHP</span><br>70%</li>
+                </ul>
+            </div> 
+            <div class="tab-contents" id="education"> 
+                <ul> 
+                    <li><span>2021</span><br>SSC</li> 
+                    <li><span>2023</span><br>HSC.</li> 
+                    <li><span>2026</span><br>BBA(CA).</li> 
+                </ul> 
+            </div>
+        </div> 
+    </div>
+</div>
+
+<!-- ------portfolio-------- -->
+<div id="portfolio"> 
+    <div class="container"> 
+        <h1 class="sub-title">My Project</h1> 
+        <div class="  Project"> 
+            <div class="single"> 
+            <img src="https://github.com/"> 
+            </div> 
+            
+            <div class="single"> 
+            <img src="https://www.youtube.com/user/amazondotin"> 
+            </div>
+    </div> 
+    <a href="#" class="btn">See more</a> 
+</div>
+<!-- ------------contact------------- -->
+<div id="contact"> 
+    <div class="container"> 
+        <div class="row"> 
+            <div class="contact-left"> 
+            <h1 class="sub-title">Contact Me</h1> 
+            <p><i class="fa-solid fa-paper-plane"></i> contact@example.Diksha kakade</p> 
+            <p><i class="fa-solid fa-square-phone"></i> 0123456789</p> 
+            <div class="social-icons"> 
+                <a href=""><i class="fa-brands fa-Github"></i></a> 
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div> 
+             
+            </div> 
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your Name" required> 
+                    <input type="email" name="Email" placeholder="Your Email" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>  
+                </div> 
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div> 
+    </div> 
+    <div class="copyright"> 
+        <p>Copyright @diksha kakade <i class="fa-solid fa-heart"></i> </p> 
+        </div>
+</div> 
+</body> 
+</html>
